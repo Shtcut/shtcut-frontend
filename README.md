@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Shtcut URL Shortener: Analytics-Intensive, Self-Hostable
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This repository hosts an advanced URL shortener solution that goes beyond the traditional concept of link compressors. It's engineered to provide a comprehensive suite of analytics while offering the ability to self-host, giving users complete control over their data and customization.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Analytics Depth
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Detailed Click Metrics: Track click-through rates, locations, devices, and more for every shortened link.
+- User Behavior Insights: Gain a deeper understanding of user interactions with links to optimize marketing strategies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Self-Hosting Capabilities
 
-## Learn More
+- Complete Control: Host the platform on your infrastructure, ensuring data security and adhering to specific compliance requirements.
+- Customization Options: Tailor the solution to fit unique business or personal preferences, enhancing its usability.
 
-To learn more about Next.js, take a look at the following resources:
+### User-Friendly Interface
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Intuitive Design: Enjoy a sleek and responsive user interface, making link management and analytics exploration effortless.
+- Visual Appeal: Aesthetically pleasing design that doesn't compromise functionality.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Earning Opportunities
 
-## Deploy on Vercel
+- Monetization Potential: Integrate advertising or affiliate links to generate revenue through link clicks.
+- Performance Tracking: Analyze earning potential by tracking revenue generated from different links or campaigns.
+- Referral Promotion: Implement referral programs, rewarding users for bringing in new members or generating increased traffic.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Requirements
+
+- NextJS v14.0 or higher
+- React/Redux toolkit
+- GraphQL v11.0 or higher
+- Vercel (for production deployment)
+
+### Steps to Install
+
+1. Clone this repository to your local machine.
+2. Install dependencies using `yarn install`.
+3. Configure environment variables for database connection, analytics settings, and hosting preferences.
+4. Run the application using `yarn start`.
+
+Absolutely! Here's an example of how you can incorporate the link into the documentation:
+
+## Usage
+
+### Accessing the Application
+
+- Visit the hosted version of the application at [shtcut.link](https://shtcut.link/) for instant access to the service.
+
+### Shortening Links
+
+1. Access the application via the provided URL or the locally hosted server.
+2. Authenticate or use as a guest (if allowed) to access link shortening functionality.
+3. Input the long URL and generate a shortened link.
+4. View comprehensive analytics and manage links through the user-friendly dashboard.
+
+### Self-Hosting Guidance
+
+- Refer to the detailed documentation in the 'docs' folder for instructions on self-hosting, customization, and API integration.
+
+This addition directs users to access the hosted version of the application directly through the provided link [shtcut.link](https://shtcut.link/), simplifying access for immediate usage.
+
+## Contribution
+
+We welcome contributions! If you'd like to contribute, please follow our [contribution guidelines](CONTRIBUTING.md) for details on the process.
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/funmiayinde/shtcut-backend/blob/main/LICENSE).
+
+## Support
+
+For any queries, issues, or suggestions, feel free to raise a GitHub issue or contact the maintainers at [funmiayinde11@gmail.com](mailto:funmiayinde11@gmail.com).
+=================================================================================================================================
